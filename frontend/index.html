@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Usuario" required />
+        <input type="password" id="password" placeholder="Contraseña" required />
+        <button type="submit">Ingresar</button>
+      </form>
+
+      <h2>Registro</h2>
+      <form id="registerForm">
+        <input type="text" id="newUsername" placeholder="Nuevo usuario" required />
+        <input type="password" id="newPassword" placeholder="Nueva contraseña" required />
+        <button type="submit">Registrar</button>
+      </form>
+    </div>
+    <!-- Aquí aparecen los mensajes -->
+    <div id="messageBox" style="margin-top: 15px; font-weight: bold;"></div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
